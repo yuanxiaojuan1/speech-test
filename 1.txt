@@ -1,0 +1,9 @@
+学生手机（扫码打开网页）
+        │  录音识别 + 打分（前端完成）
+        │  POST /api/submit  {student, results[]}
+        ▼
+Node.js 后端（Express）
+        │  存 data.json / SQLite
+        │  GET /api/report  返回班级汇总
+        ▼
+老师端 /report  查看班级错误率报表

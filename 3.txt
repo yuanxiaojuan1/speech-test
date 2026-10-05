@@ -1,0 +1,7 @@
+speech-backend/
+├── server.js
+├── package.json
+├── data.json          （自动生成）
+└── public/
+    ├── index.html     （学生端，手机优先）
+    └── report.html    （老师端报表）
